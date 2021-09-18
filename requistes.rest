@@ -1,0 +1,10 @@
+GET http://localhost:5000/posts
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoieW91c3NlZiIsImlhdCI6MTYzMDg2MTA5Nn0.d5gfQM3FuK_FUeuSL5L5oRQw2mDBHc2i1a2e4PJKeKY
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "user":"youssef"
+}
